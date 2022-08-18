@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+.container {
+    padding: 0 18rem;
+}
+
+.paragraph {
+    display: table-cell;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color:white;
+}
+
+  
+li {
+    float: left;
+}
+
+#header {
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+}
+
+#footer {
+    background-color: #0b4d14;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer div {
+    display: table-cell;
+}
+
+#footer-right {
+}
+
+#introduction {
+    background-color: #c6bfbf;
+}
+
+.container-body {
+    display: block;
+    position: relative;
+    top: 18px;
+}
+  
+  
