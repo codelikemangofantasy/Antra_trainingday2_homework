@@ -21,12 +21,23 @@ ul {
   
 li {
     float: left;
+    font-family: sans-serif;
+    padding: 0 2rem 0 0;
+    color: white
+}
+
+li a {
+    color: white;
+    text-decoration: none;
 }
 
 #header {
     background-color: #000;
     position: fixed;
     width: 100%;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    z-index: 100000;
 }
 
 #footer {
@@ -34,10 +45,17 @@ li {
     position: fixed;
     bottom: 0;
     width: 100%;
+    padding: 1rem 0;
 }
 
-#footer div {
+/*#footer div {
     display: table-cell;
+}*/
+
+#footer-sub-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 18rem;
 }
 
 #footer-right {
@@ -50,7 +68,28 @@ li {
 .container-body {
     display: block;
     position: relative;
-    top: 18px;
+    top: 60px;
+}
+
+#intro-title {
+    font-family: Arial;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 2rem 0
+}
+
+#intro-subtitle {
+    font-family: Helvetica;
+    padding-bottom: 1.5rem;
+}
+
+
+div.paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 2.5rem;
+
 }
   
-  
+#knowmore {
+    color:cornflowerblue;
+}
